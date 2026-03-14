@@ -1,1 +1,19 @@
-[]
+[
+    {
+        "DisplayName": "Server Address",
+        "Category": "Server",
+        "Description": "The network interface the server listens on for incoming connections.",
+        "Keywords": "server,address",
+        "FieldName": "ServerAddress",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerAddress",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "0.0.0.0",
+        "Placeholder": "0.0.0.0",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    }
+]

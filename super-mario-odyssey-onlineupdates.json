@@ -6,9 +6,9 @@
         "UpdateSourceData": "Server",
         "UpdateSourceArgs": "Sanae6/SmoOnlineServer",
         "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
+        "OverwriteExistingFiles": true,
         "UpdateSourceConditionValue": "",
-        "DeleteAfterExtract": true,
+        "DeleteAfterExtract": false,
         "OneShot": false
     },
     {
@@ -18,19 +18,9 @@
         "UpdateSourceData": "Server.exe",
         "UpdateSourceArgs": "Sanae6/SmoOnlineServer",
         "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
+        "OverwriteExistingFiles": true,
         "UpdateSourceConditionValue": "",
-        "DeleteAfterExtract": true,
+        "DeleteAfterExtract": false,
         "OneShot": false
-    },
-    {
-        "UpdateStageName": "",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "SetExecutableFlag",
-        "UpdateSourceArgs": "Server",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": true
     }
 ]
