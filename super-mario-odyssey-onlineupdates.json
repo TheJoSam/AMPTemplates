@@ -22,5 +22,12 @@
         "UpdateSourceConditionValue": "",
         "DeleteAfterExtract": false,
         "OneShot": false
+    },
+    {
+        "UpdateStageName": "Set Executable flag",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "SetExecutableFlag",
+        "UpdateSourceArgs": "Server",
+        "OneShot": true
     }
 ]

@@ -73,7 +73,7 @@ Meta.ConfigManifest=super-mario-odyssey-onlineconfig.json
 Meta.MetaConfigManifest=super-mario-odyssey-onlinemetaconfig.json
 Meta.ConfigRoot=super-mario-odyssey-online.kvp
 App.RootDir=./super-mario-odyssey-online/
-Meta.DisplayImageSource=url:https://github.com/Istador/smoo.it/blob/028458f85719afd4f2502ddc4c2c4de7dd419a91/public/img/logo.png
+Meta.DisplayImageSource=url:https://github.com/Istador/smoo.it/blob/028458f85719afd4f2502ddc4c2c4de7dd419a91/public/img/logo.png?raw=true
 App.BaseDirectory=./super-mario-odyssey-online/serverfiles/
 App.WorkingDir=serverfiles
 App.ExecutableWin=serverfiles\Server.exe
