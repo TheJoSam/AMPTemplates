@@ -6,10 +6,10 @@
         "UpdateSourceData": "Server",
         "UpdateSourceArgs": "Sanae6/SmoOnlineServer",
         "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": true,
+        "OverwriteExistingFiles": false,
         "UpdateSourceConditionValue": "",
-        "DeleteAfterExtract": false,
-        "OneShot": false
+        "DeleteAfterExtract": true,
+        "OneShot": true
     },
     {
         "UpdateStageName": "Download Binary Runtime",
@@ -18,16 +18,41 @@
         "UpdateSourceData": "Server.exe",
         "UpdateSourceArgs": "Sanae6/SmoOnlineServer",
         "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": true,
+        "OverwriteExistingFiles": false,
         "UpdateSourceConditionValue": "",
-        "DeleteAfterExtract": false,
-        "OneShot": false
+        "DeleteAfterExtract": true,
+        "OneShot": true
     },
     {
-        "UpdateStageName": "Set Executable flag",
-        "UpdateSourcePlatform": "Linux",
+        "UpdateStageName": "",
+        "UpdateSourcePlatform": "All",
         "UpdateSource": "SetExecutableFlag",
         "UpdateSourceArgs": "Server",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    },
+    {
+        "UpdateStageName": "",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "CopyFilePath",
+        "UpdateSourceData": "./serverfiles/Server",
+        "UpdateSourceArgs": "./Server",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    },
+    {
+        "UpdateStageName": "",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "CopyFilePath",
+        "UpdateSourceData": ".\\serverfiles\\Server.exe",
+        "UpdateSourceArgs": ".\\Server.exe",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
         "OneShot": true
     }
 ]
