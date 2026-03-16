@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "Server Address",
-        "Category": "Server",
+        "Category": "Server Settings",
         "Description": "The network interface the server listens on for incoming connections.",
         "Keywords": "server,address",
         "FieldName": "ServerAddress",
@@ -18,7 +18,7 @@
     },
     {
         "DisplayName": "Server Port",
-        "Category": "Server",
+        "Category": "Server Settings",
         "Description": "The TCP port clients use to connect to the server.",
         "Keywords": "server,port",
         "FieldName": "ServerPort",
@@ -35,7 +35,7 @@
     },
     {
         "DisplayName": "Max Players",
-        "Category": "Server",
+        "Category": "Server Settings",
         "Description": "",
         "Keywords": "max,players",
         "FieldName": "ServerMaxPlayers",
@@ -51,8 +51,8 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Enable",
-        "Category": "Flip",
+        "DisplayName": "Enable Flip",
+        "Category": "Server Settings",
         "Description": "Visually flips the 3D (and 2D) models of players on their head.",
         "Keywords": "enable",
         "FieldName": "FlipEnable",
@@ -72,7 +72,7 @@
     },
     {
         "DisplayName": "Flip POV",
-        "Category": "Flip",
+        "Category": "Server Settings",
         "Description": "Affects who sees whom as flipped. Possible values: \"self\" (affected players will see unaffected players as flipped), \"others\" (affected players will be seen as flipped by everyone), or \"both\" (affected players will see everyone as flipped and everyone sees them as flipped).",
         "Keywords": "flip,pov",
         "FieldName": "FlipPOV",
@@ -89,7 +89,7 @@
     },
     {
         "DisplayName": "Merge Scenarios",
-        "Category": "Scenario",
+        "Category": "Server Settings",
         "Description": "When the players are in different stages of the story (scenarios), they are technically in different levels and don't see each other.",
         "Keywords": "merge,scenarios",
         "FieldName": "MergeScenarios",
@@ -108,8 +108,8 @@
         }
     },
     {
-        "DisplayName": "Enabled",
-        "Category": "Ban List",
+        "DisplayName": "Enable Ban List",
+        "Category": "Server Settings",
         "Description": "",
         "Keywords": "enabled",
         "FieldName": "BanListEnabled",
@@ -128,8 +128,8 @@
         }
     },
     {
-        "DisplayName": "Token",
-        "Category": "Discord",
+        "DisplayName": "Bot Token",
+        "Category": "Discord Bot",
         "Description": "Secret credential string with that the server can login to as the discord bot.",
         "Keywords": "token",
         "FieldName": "DiscordToken",
@@ -146,7 +146,7 @@
     },
     {
         "DisplayName": "Command Prefix",
-        "Category": "Discord",
+        "Category": "Discord Bot",
         "Description": "Messages that start with this prefix string are interpreted by the bot as commands to it.",
         "Keywords": "command,prefix",
         "FieldName": "DiscordCommandPrefix",
@@ -163,7 +163,7 @@
     },
     {
         "DisplayName": "Command Channel",
-        "Category": "Discord",
+        "Category": "Discord Bot",
         "Description": "",
         "Keywords": "command,channel",
         "FieldName": "DiscordCommandChannel",
@@ -180,7 +180,7 @@
     },
     {
         "DisplayName": "Log Channel",
-        "Category": "Discord",
+        "Category": "Discord Bot",
         "Description": "",
         "Keywords": "log,channel",
         "FieldName": "DiscordLogChannel",
@@ -196,8 +196,8 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Enabled",
-        "Category": "Moons",
+        "DisplayName": "Enable Moon Syncronization",
+        "Category": "Server Settings",
         "Description": "Can be used to disable moon synchronization between players.",
         "Keywords": "enabled",
         "FieldName": "ShinesEnabled",
@@ -216,8 +216,8 @@
         }
     },
     {
-        "DisplayName": "Clear on New Saves",
-        "Category": "Moons",
+        "DisplayName": "Clear Moons on New Saves",
+        "Category": "Server Settings",
         "Description": "Enabling this will forget the collected moons that the server remembers when a player enters Cap Kingdom in scenario 1 (this means a new save file before entering Cascade Kingdom). This can be useful for co-op gameplay or speedruns.",
         "Keywords": "clear,on,new,saves",
         "FieldName": "MoonsClearOnNewSave",
@@ -236,8 +236,8 @@
         }
     },
     {
-        "DisplayName": "Enabled",
-        "Category": "Persist Moons",
+        "DisplayName": "Enable Persistent Moons",
+        "Category": "Server Settings",
         "Description": "An option to save shines (moons) collected into a file, to survive server restarts and crashes.",
         "Keywords": "enabled",
         "FieldName": "PersistShinesEnabled",
